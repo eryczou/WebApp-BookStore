@@ -1,0 +1,21 @@
+{
+  "name": "webappreader",
+  "version": "1.0.0",
+  "description": "webapp reader site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eryc Zou",
+  "license": "ISC",
+  "dependencies": {
+    "auto-reload": "0.0.2",
+    "co-views": "^2.1.0",
+    "ejs": "^2.5.7",
+    "koa": "^2.3.0",
+    "koa-route": "^3.2.0",
+    "koa-static-server": "^1.3.2",
+    "koa-views": "^6.1.0",
+    "webpack": "^3.6.0"
+  }
+}
