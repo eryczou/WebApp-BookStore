@@ -8,6 +8,7 @@
   "license": "ISC",
   "dependencies": {
     "auto-reload": "0.0.2",
+    "axios": "^0.16.2",
     "ejs": "^2.5.7",
     "koa": "^2.3.0",
     "koa-mount": "^3.0.0",
