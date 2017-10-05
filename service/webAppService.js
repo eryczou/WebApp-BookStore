@@ -11,6 +11,11 @@ exports.get_index_data = function() {
     return content;
 }
 
+exports.get_rank_data = function() {
+    let content = fs.readFileSync('./mock/rank.json', 'utf-8');
+    return content;
+}
+
 exports.get_book_data = function(id) {
     if (!id)  id = '18218';
     let content = fs.readFileSync('./mock/book/' + id + '.json', 'utf-8');
@@ -27,8 +32,8 @@ exports.get_channel_data = function(gender) {
     return content;
 }
 
-exports.get_rank_data = function() {
-    let content = fs.readFileSync('./mock/rank.json', 'utf-8');
+exports.get_category_data = function() {
+    let content = fs.readFileSync('./mock/category.json', 'utf-8');
     return content;
 }
 
