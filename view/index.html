@@ -3,11 +3,20 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <meta name="format-detection" content="telephone=no">
-        <title>Home Page</title>
+        <title>书城主页</title>
     </head>
     <body>
         <div id="root">
-
+            <% include includes/header.html %>
+            <div>
+                <% include includes/index-top.html %>
+                <% include includes/index-hot.html %>
+                <% include includes/index-free.html %>
+                <% include includes/index-male.html %>
+                <% include includes/index-female.html %>
+                <% include includes/index-recommendation.html %>
+                <% include includes/index-bottom.html %>
+            </div>
         </div>
         <script src="/static/script/vue.min.js" ></script>
         <script src="/static/script/zepto.min.js" ></script>
